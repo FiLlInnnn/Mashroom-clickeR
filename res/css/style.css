@@ -1,0 +1,29 @@
+#cookie {
+  max-width: 100px;
+  width: 100%;
+  background: none;
+  transition: 0.5s ;
+}
+#cookie:hover{
+  transform: scale(1.5, 1.5);
+}
+.hll{
+  position: absolute;
+  width: 300px;
+  top: 350px;
+  left: 600px;
+  margin-top: 5px;
+  text-align: center;
+}
+body{
+  background-image: url(../img/forest.jpg);
+  background-size: cover;
+}
+#counter{
+  font-size: 35px;
+  font-family: 'Bebas Neue', sans-serif;
+  color: black;
+}
+
+
+
