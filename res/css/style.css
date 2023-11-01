@@ -9,21 +9,63 @@
 }
 .hll{
   position: absolute;
-  width: 300px;
+  width: 400px;
   top: 350px;
   left: 600px;
   margin-top: 5px;
   text-align: center;
 }
-body{
+#glhf{
   background-image: url(../img/forest.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #counter{
   font-size: 35px;
   font-family: 'Bebas Neue', sans-serif;
   color: black;
 }
+
+#clickUpgrade{
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border-radius: 32px;
+  border: 2px solid black;
+  font-size: 25px;
+  transition: 0.5s;
+}
+#autoclickUpgrade{
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border-radius: 32px;
+  border: 2px solid black;
+  margin-top: 5px;
+  font-size: 25px;
+  transition: 0.5s;
+
+}
+#zkzn{
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border-radius: 32px;
+  border: 2px solid black;
+  margin-top: 5px;
+  font-size: 25px;
+  transition: 0.5s;
+
+}
+#clickUpgrade:hover{
+  transform: scale(1.1, 1.1);
+}
+#autoclickUpgrade:hover{
+  transform: scale(1.1, 1.1);
+}#zkzn:hover{
+  transform: scale(1.1, 1.1);
+}
+
 
 
 
