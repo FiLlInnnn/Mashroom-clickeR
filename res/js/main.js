@@ -21,15 +21,15 @@ cookie.onclick = () => {
     //++ - inkrement
     numberOfCookies += cookieIncreaseNumber;
     //Zobrazit v odstavci
-    counter.innerText = "Houbičky: " + numberOfCookies ;
+    counter.innerText = "Houbičky: " + numberOfCookies + "🍄" ;
 };
 
 clickUpgrade.onclick = () => {
     if (numberOfCookies >= clickupgradeprice) {
       numberOfCookies -= clickupgradeprice;
       clickupgradeprice *= 2
-      clickUpgrade.innerHTML = " Buy click upgrade: " + clickupgradeprice;
-      counter.innerText = "Houbičky: " + numberOfCookies;
+      clickUpgrade.innerHTML = " Buy Click Upgrade: " + clickupgradeprice + "🍄";
+      counter.innerText = "Houbičky: " + numberOfCookies + "🍄";
       cookieIncreaseNumber++;
     }
   };
@@ -38,8 +38,8 @@ autoclickUpgrade.onclick = () => {
     if (numberOfCookies >= autoClickerPrice) {
       numberOfCookies -= autoClickerPrice;
       autoClickerPrice *= 3
-      autoclickUpgrade.innerHTML = "Buy autoclicker: " + autoClickerPrice;
-      counter.innerText = "Houbičky: " + numberOfCookies;
+      autoclickUpgrade.innerHTML = "Buy Autoclicker: " + autoClickerPrice + "🍄";
+      counter.innerText = "Houbičky: " + numberOfCookies + "🍄";
       autoClickerIncrease++;
       clearInterval(autoclickerinterval);
       autoclickerinterval = setInterval(() => {
