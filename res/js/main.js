@@ -37,7 +37,7 @@ clickUpgrade.onclick = () => {
 autoclickUpgrade.onclick = () => {
     if (numberOfCookies >= autoClickerPrice) {
       numberOfCookies -= autoClickerPrice;
-      autoClickerPrice *= 2
+      autoClickerPrice *= 3
       autoclickUpgrade.innerHTML = "Buy autoclicker: " + autoClickerPrice;
       counter.innerText = "Houbičky: " + numberOfCookies;
       autoClickerIncrease++;
@@ -49,19 +49,28 @@ autoclickUpgrade.onclick = () => {
 
   }
 };
- function hideButton(x){
-    x.style.display = "none";
-};
+
+
+
+
+
+//function onclick ()  {
+  //if (numberOfCookies >= zkznHoubyPrice) {
+    //  numberOfCookies -= zkznHoubyPrice;
+    //  counter.innerText = "Houbičky: " + numberOfCookies;
+      
+  //};
+//};
 
 function changeImage(file_name) {
     let img = document.querySelector("#cookie")
-    img.setAttribute('src', file_name)
-};
+        img.setAttribute('src', file_name)
+}
 
-
-//function onclick = () => {
-   // if (numberOfCookies >= zkznHoubyPrice) {
-   //     numberOfCookies -= zkznHoubyPrice;
-   //     counter.innerText = "Houbičky: " + numberOfCookies;
-   // }
-//};
+function changeImage(file_name) {
+  let img = document.querySelector("#cookie")
+      img.setAttribute('src', file_name)
+}
+// function hideButton(x){
+//    x.style.display = "none";
+//};        
